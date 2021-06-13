@@ -1,0 +1,24 @@
+extends base3.pug 
+block scripts
+    script(src='../static/index.js') 
+block style
+    style
+        include ../static/dashBoard.css
+        include ../static/carDetails.css
+block content
+    section#carOne 
+        h1 Car Details 
+            table#car
+                tr 
+                    th Id
+                    th Model
+                    th Car Number 
+                    th Insurance Number
+                th 
+                each data in  carList
+                    tr 
+                        td=data.id    
+                        td=data.model     
+                        td=data.carno    
+                        td=data.insurance    
+

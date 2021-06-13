@@ -1,0 +1,26 @@
+    * {
+        background-color: rgb(150, 150, 150);
+    }
+    
+    #bookOne {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 650px;
+    }
+    
+    h1 {
+        margin-top: 8px;
+    }
+    
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%
+    }
+    
+    #customers td,
+    #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }

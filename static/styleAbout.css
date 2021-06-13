@@ -1,0 +1,18 @@
+* {
+    background-color: rgb(104, 104, 104);
+}
+
+#aboutOne {
+    border: 2px solid red;
+    height: 500px;
+}
+
+#aboutTwo {
+    border: 2px solid red;
+    height: 500px;
+}
+
+#aboutThree {
+    border: 2px solid red;
+    height: 500px;
+}

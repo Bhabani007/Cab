@@ -1,0 +1,8 @@
+* {
+    background-color: rgb(117, 107, 107);
+}
+
+#faresOne {
+    border: 2px solid red;
+    height: 640px;
+}
